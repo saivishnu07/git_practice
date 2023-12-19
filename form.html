@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<title> Registration Form </title>
+	</head>
+	<body background="RegForm.jpg">
+		<h1> STUDENT REGISTRATION FORM </h1>
+		<fieldset>
+		<legend> Personal Information </legend>
+		<style>
+			h1 {
+				color:Orange;
+				text-align:center;
+			   	}
+			body {
+				background-size:cover;
+				background-repeat:no-repeat;
+				}
+			fieldset {
+                                color:Lightgreen;
+  				margin:auto;
+				text-align:left;
+				width:40%;
+				}
+			form {
+				text-align:center;
+				}
+			label {
+				color:Lightpink;
+				}
+			input, select, textarea {
+				color:chocolate;	
+				}
+			
+			input[type="button"] {
+        			background-color: LightBlue;
+        			color:black;
+        			cursor:pointer;
+      				}
+      			input[type="button"]:hover {
+        			background-color:Lightgreen;
+			}     
+		</style>
+		<form> 
+			<label> First Name </label>
+			<input type="text" name="FName" placeholder="Enter First Name">
+ 			<br><br>
+			<label> Last Name </label>
+			<input type="text" name="LName" placeholder="Enter Last Name">
+			<br><br>
+			<label> Gender </label>
+			<input type="radio" name="Gender" value="Male"> Male
+			<label> </label>
+			<input type="radio" name="Gender" value="Female"> Female
+			<br><br>
+			<label> Age </label>
+			<input type="text" name="Age" placeholder="Enter your age">
+			<br><br>
+			<label> Date of Birth </label>
+			<input type="date" name="DOB">
+			<br><br>
+			<label> Email Address </label>
+			<input type="email" name="Email" placeholder="Enter your email">
+			<br><br>
+			<label> Password </label>
+			<input type="password" name="Password" placeholder="Enter your password min 8 characters">
+			<br><br>
+			<label> Confirm Password </label>
+			<input type="password" name="ConfirmPassword"  placeholder="Confirm password">
+			<br><br>
+			<label> Phone Number </label>
+			<select id="Num" name="MobNum">
+				<option value="+91">+91 </option>
+			</select>
+			<input type="tel" name="MobNum" placeholder="Enter your phone number">
+			<br><br>
+			<label> Address </label>
+			<textarea name="Address" cols="35" rows="5" placeholder="Enter your address">
+			</textarea>
+			<br><br>
+			<label> State </label>
+			<select id="state" name="state">
+              			<option value="">--Select your state--</option>
+              			<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              			<option value="Andhra Pradesh">Andhra Pradesh</option>
+              			<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              			<option value="Assam">Assam</option>
+              			<option value="Bihar">Bihar</option>
+             			<option value="Chandigarh">Chandigarh</option>
+             			<option value="Chhattisgarh">Chhattisgarh</option>
+              			<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+              			<option value="Daman and Diu">Daman and Diu</option>
+              			<option value="Delhi">Delhi</option>
+				<option value="Goa">Goa</option>
+              			<option value="Gujarat">Gujarat</option>
+              			<option value="Haryana">Haryana</option>
+              			<option value="Himachal Pradesh">Himachal Pradesh</option>
+              			<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              			<option value="Jharkhand">Jharkhand</option>
+              			<option value="Karnataka">Karnataka</option>
+              			<option value="Kerala">Kerala</option>
+              			<option value="Ladakh">Ladakh</option>
+              			<option value="Lakshadweep">Lakshadweep</option>
+              			<option value="Madhya Pradesh">Madhya Pradesh</option>
+              			<option value="Maharashtra">Maharashtra</option>
+              			<option value="Manipur">Manipur</option>
+              			<option value="Meghalaya">Meghalaya</option>
+              			<option value="Mizoram">Mizoram</option>
+              			<option value="Nagaland">Nagaland</option>
+             			<option value="Odisha">Odisha</option>
+              			<option value="Puducherry">Puducherry</option>
+              			<option value="Punjab">Punjab</option>
+              			<option value="Rajasthan">Rajasthan</option>
+              			<option value="Sikkim">Sikkim</option>
+				<option value="Tamil Nadu">Tamil Nadu</option>
+              			<option value="Telangana">Telangana</option>
+              			<option value="Tripura">Tripura</option>
+              			<option value="Uttar Pradesh">Uttar Pradesh</option>
+              			<option value="Uttarakhand">Uttarakhand</option>
+              			<option value="West Bengal">West Bengal</option>
+            		</select>
+			<br><br>
+			<label> Pin Code </label>
+			<input type="num" name="Pin Code" placeholder="Enter your pin code">
+			<br><br>
+			<label> Hobbies </label>
+			<input type="checkbox" name="Hobbies" value="Music">Music
+			<input type="checkbox" name="Hobbies" value="Movies">Movies
+			<input type="checkbox" name="Hobbies" value="Sports">Sports
+			<input type="checkbox" name="Hobbies" value="Travel">Travel
+			<br><br>
+			<label> Upload Photo </label> 
+			<label style="color:orange;">*Max size 100kb.</label>
+			<input type="file" name="Photo" placeholder="Upload your photo">
+			<br><br>
+			<input type="checkbox" name="check" <p> I hereby declare that the above information provided is true and correct. </p>
+			
+			<label> 
+			<input type="button" name="submit" value="Register"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="button" name="reset" value="Reset">
+		</form> 
+	</body>
+</html>
